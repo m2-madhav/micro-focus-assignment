@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.section {
+  background-color: lightgray;
+  position: relative;
+  width: "100%";
+}
+.section-center {
+  height: 400px;
+  background-color: lightgray;
+  position: relative;
+  top: "100px";
+  left: "0";
+  width: "100%";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drag-n-drop {
+  padding: 0.5rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: gray;
+  position: relative;
+  cursor: move;
+}
+
+.drag-n-drop-lower-right {
+  padding: 0.5rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: move;
+}
+
+.dnd-item {
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.dnd-item-text {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
